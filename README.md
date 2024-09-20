@@ -20,9 +20,9 @@ CGDPO 알고리즘은 REINFORCE 알고리즘의 변형으로 다음과 같은 �
 4. 연속 문제 해결을 위한 초기 상태 랜덤 샘플링
 5. 오차가 높은 부분을 타개하기 위한 어댑티브 샘플링
 
-2024년 9월 기준으로 본 알고리즘은 dynamic choice & portfolio choice problem을 푸는 가장 강력한 도구입니다. 강화학습 알고리즘 중 널리 사용되는 PPO 알고리즘과 비교시 상대에러의 관한 RMSE에서 훨씬 우월합니다.
-
 ## CGDPO와 PPO의 성능 비교
+
+2024년 9월 기준으로 본 알고리즘은 dynamic choice & portfolio choice problem을 푸는 가장 강력한 도구입니다. 강화학습 알고리즘 중 널리 사용되는 PPO 알고리즘과 비교시 상대에러의 관한 RMSE에서 훨씬 우월합니다.
 
 ### 완전 시장
 | | | 1min | 5min | 10min | 30min | 60min |
