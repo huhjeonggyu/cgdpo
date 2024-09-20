@@ -1,4 +1,4 @@
-# CGDPO 알고리즘 소개
+## CGDPO 알고리즘 소개
 
 CGDPO는 dynamic consumption & portfolio choice problem을 풀기 위한 reinforcement algorithm입니다.
 CGDPO는 computational-graph-based direct policy optimization의 약자입니다.
@@ -63,6 +63,14 @@ PPO 알고리즘은 완전 시장에서도 수렴하지 않고 해답 주변을 
 
 ## CGDPO 알고리즘의 결과
 
+## 완전 시장
+
 ![5분_소비신경망](./5min_consumption_complete_net.png "5분 소비신경망")
 ![5분_투자신경망](./5min_myopic_complete_net.png "5분 투자신경망")
 
+위는 소비량을 예측하는 신경망 결과고, 아래는 투자량을 예측하는 신경망의 결과물입니다.
+5분만에 매우 정확한 답이 도출되고 있음을 확인할 수 있습니다.
+에러가 작다는 사실은 매칭되는 아래의 에러에 관한 그림을 봐도 확인됩니다.
+
+![5분_소비신경망 에러](./5min_consumption_complete_error.png "5분 소비신경망 에러")
+![5분_투자신경망 에러](./5min_myopic_complete_error.png "5분 투자신경망 에러")
