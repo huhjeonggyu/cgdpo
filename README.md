@@ -1,4 +1,3 @@
-```markdown
 # CGDPO 알고리즘 소개
 
 CGDPO는 dynamic consumption & portfolio choice problem을 풀기 위한 reinforcement algorithm입니다.
@@ -61,4 +60,3 @@ PPO 알고리즘은 완전 시장에서도 수렴하지 않고 해답 주변을 
 따라서 이 알고리즘은 다음의 측면에서 기여합니다:
 1. 상대적으로 짧은 시간 안에 불완전시장을 포함한 어떤 모델에서의 정책 신경망 학습을 담보
 2. 불완전 시장에서 '근시안적 수요'와 '헤징 수요'를 분리하여 구하는 최초의 연구
-```
