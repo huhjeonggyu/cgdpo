@@ -84,6 +84,6 @@ PPO 알고리즘은 완전 시장에서도 수렴하지 않고 해답 주변을 
 에러가 작다는 사실은 매칭되는 아래의 에러에 관한 그림을 봐도 확인됩니다.
 
 <div style="display: flex; justify-content: space-between;">
-    <img src="./1h_myopic_incomplete_net.png" alt="1시간 근시안신경망 에러" width="45%">
-    <img src="./1h_hedging_incomplete_net.png" alt="1시간 헤징신경망 에러" width="45%">
+    <img src="./1h_myopic_incomplete_error.png" alt="1시간 근시안신경망 에러" width="45%">
+    <img src="./1h_hedging_incomplete_error.png" alt="1시간 헤징신경망 에러" width="45%">
 </div>
