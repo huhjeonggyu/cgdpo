@@ -64,7 +64,7 @@ PPO 알고리즘은 완전 시장에서도 수렴하지 않고 해답 주변을 
     <img src="./complete/image/5min_myopic_complete_net.png" alt="5분 투자신경망" width="45%">
 </div>
 
-왼쪽은 소비량을 예측하는 신경망 결과이고, 오른쪽은 투자량을 예측하는 신경망의 결과물입니다. 5분만에 매우 정확한 답이 도출되고 있음을 확인할 수 있습니다. 에러가 작다는 사실은 매칭되는 아래의 에러에 관한 그림을 봐도 확인됩니다.
+왼쪽은 소비량을 예측하는 신경망 결과이고, 오른쪽은 투자량을 예측하는 신경망의 결과물입니다. 5분만에 매우 정확한 답을 얻음을 확인할 수 있습니다. 에러가 작다는 사실은 매칭되는 아래의 에러에 관한 그림을 봐도 확인됩니다.
 
 <div style="display: flex; justify-content: space-between;">
     <img src="./complete/image/5min_consumption_complete_error.png" alt="5분 소비신경망 에러" width="45%">
