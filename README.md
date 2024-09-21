@@ -54,8 +54,20 @@ PPO 알고리즘은 완전 시장에서도 수렴하지 않고 해답 주변을 
 ## CGDPO 알고리즘의 기여
 
 이 알고리즘은 다음의 측면에서 기여합니다:
-1. 상대적으로 짧은 시간 안에 불완전시장을 포함한 임의 모델에서의 정책 신경망 학습을 담보
-2. 불완전 시장에서 '근시안적 수요'와 '헤징 수요'를 분리하여 구해낸 최초의 연구
+* 상대적으로 짧은 시간 안에 불완전시장을 포함한 임의 모델에서의 정책 신경망 학습을 담보
+* 불완전 시장에서 '근시안적 수요'와 '헤징 수요'를 분리하여 구해낸 최초의 연구
+
+## 비교 연구
+
+* Dai, M., Dong, Y., Jia, Y., & Zhou, X. Y. (2023). Learning Merton's Strategies in an Incomplete Market: Recursive Entropy Regularization and Biased Gaussian Exploration. arXiv preprint arXiv:2312.11797.
+
+위의 연구는 모델 프리 강화학습을 엔트로피 정규화 방법과 엮어 dynamic choice problem을 풀어내려고 하고 있습니다. 이 연구는 static model에 적용된 아래의 두 연구를 dynamic model로 알맞게 확장하는 연구로 봐야 합니다.
+1. Wang, H., & Zhou, X. Y. (2020). Continuous‐time mean–variance portfolio selection: A reinforcement learning framework. Mathematical Finance, 30(4), 1273-1308
+2. Dai, M., Dong, Y., & Jia, Y. (2023). Learning equilibrium mean‐variance strategy. Mathematical Finance, 33(4), 1166-1212.
+
+* Geng, S., Nassif, H., Kuang, Z., Reppen, A., & Sircar, R. (2023, July). Factor learning portfolio optimization informed by continuous-time finance models. In ICML Workshop on New Frontiers in Learning, Control, and Dynamical Systems.
+
+위의 연구는 모델 기반 강화학습을 이용하여 정책 신경망의 아웃풋의 form를 제한하고 모델 프리 강화학습을 이러한 form 중 특정 부분에만 허용하는 하이브리드 형식을 취합니다. 모델 프리 강화학습이 금융에 어울리지 않는다는 인식하고 있다는 점을 저희 연구진과 공유합니다. 다만 저희 연구진은 모델 기반 강화학습에 전적으로 의존하고 시장 모델을 생성 신경망에 의존하려는 반면, 해당 연구진은 모델을 여전히 사용하되 시장과 모델의 괴리를 모델 프리 강화학습으로 극복하려는 시도를 합니다.
 
 ## CGDPO 알고리즘의 결과 
 
