@@ -9,7 +9,8 @@ CGDPO(Computational-Graph-based Direct Policy Optimization)는 dynamic consumpti
 * 아주대 금융공학과 김현균
 * 전남대 데이터사이언스대학원 정승원
 
-궁금한 점이 있으시면 저자 중 허정규 교수에게 메일(jghuh@skku.edu)로 문의 부탁드립니다. 연구에 참고시 추후 아카이브에 올릴 논문을 꼭 인용 부탁드립니다.
+궁금한 점이 있으시면 저자 중 허정규 교수에게 메일(jghuh@skku.edu)로 문의 부탁드립니다. 이 프로젝트는 현재 진행중인 프로젝트로 연구에 이용하신다면 다음을 인용 부탁드립니다.
+Huh, J., Koo, H. K., & Lim, B. H. (2024, July). Continuous-time portfolio optimization via model-based reinforcement learning [Paper presentation]. 2024 Asia/Pacific Conference, Financial Management Association International, Seoul, South Korea.
 
 ## CGDPO 알고리즘의 특징
 
