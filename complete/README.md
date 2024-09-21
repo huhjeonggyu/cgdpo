@@ -75,7 +75,7 @@ subject to 부의 동학 방정식.
 이 문제는 Hamilton-Jacobi-Bellman (HJB) 방정식을 사용하여 해결할 수 있습니다. 가치 함수를 $V(X_t, t)$라고 하면, HJB 방정식은 다음과 같습니다:
 
 $$
-\rho V = \max_{c,\pi} \left\{ \frac{c^{1-\gamma}}{1-\gamma} + V_t + V_x [rX + (\mu-r)\pi - c] + \frac{1}{2}V_{xx}\sigma^2\pi^2 \right\}
+\rho V = \max_{c,\pi} \left{ \frac{c^{1-\gamma}}{1-\gamma} + V_t + V_x [rX + (\mu-r)\pi - c] + \frac{1}{2}V_{xx}\sigma^2\pi^2 \right}
 $$
 
 ## 6. 최적 해
