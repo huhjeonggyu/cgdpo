@@ -13,12 +13,14 @@ CGDPO(Computational-Graph-based Direct Policy Optimization)는 dynamic consumpti
 
 ## CGDPO 알고리즘의 특징
 
-CGDPO 알고리즘은 REINFORCE 알고리즘의 변형으로 다음과 같은 특징이 있습니다:
+CGDPO 알고리즘은 REINFORCE 알고리즘의 변형으로 다음과 같은 특징이 있습니다.
+
 1. 모델 기반 강화학습
 2. 정책 기반 강화학습
 3. 역전파를 이용한 정책 신경망의 직접 학습
 4. 연속 문제 해결을 위한 초기 상태 랜덤 샘플링
 5. 오차가 높은 부분을 타개하기 위한 어댑티브 샘플링
+   
 REINFORCE 알고리즘과 1,2번은 동일하지만 3,4,5번에서 차별화됩니다.
 
 ## CGDPO와 PPO의 성능 비교
