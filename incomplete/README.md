@@ -4,6 +4,8 @@
 
 김과 옴버그(Tong Suk Kim & Edward Omberg)가 1996년에 제안한 불완전 시장 모형은 시간에 따라 변화하는 투자 기회를 고려한 동적 자산 배분 모델입니다. 이 모형은 리스크 프리미엄이 평균 회귀(mean-reverting) 과정을 따르는 상황에서의 최적 포트폴리오 선택 문제를 다룹니다.
 
+* Kim, T. S., & Omberg, E. (1996). Dynamic nonmyopic portfolio behavior. The Review of Financial Studies, 9(1), 141-161.
+
 ## 2. 모형 가정
 
 김과 옴버그의 불완전 시장 모형은 다음과 같은 가정을 기반으로 합니다:
