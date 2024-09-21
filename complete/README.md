@@ -4,6 +4,8 @@
 
 로버트 머튼(Robert C. Merton)이 1969년에 제안한 완전 시장 모형은 연속시간 포트폴리오 선택 문제의 기초가 되는 모형입니다. 이 모형은 투자자의 최적 소비와 포트폴리오 선택을 동시에 고려하며, 금융 시장에서의 동적 자산 배분 전략을 연구하는 데 중요한 역할을 합니다.
 
+* Merton, R. (1971). Optimum consumption and portfolio rules in a continuous-time model. Journal of Economic Theory, 3, 373-413.
+
 ## 2. 모형 가정
 
 머튼의 완전 시장 모형은 다음과 같은 가정을 기반으로 합니다:
