@@ -23,7 +23,8 @@ CGDPO 알고리즘은 REINFORCE 알고리즘의 변형으로 다음과 같은 �
 4. 연속 시간 문제 해결을 위한 초기 상태 랜덤 샘플링
 5. 오차가 높은 부분을 타개하기 위한 어댑티브 샘플링
    
-REINFORCE 알고리즘과 1,2번은 동일하지만 3,4,5번에서 차별화됩니다.
+REINFORCE 알고리즘과 1,2번은 동일하지만 3,4,5번에서 차별화됩니다. CGDPO에 관한 자세한 설명이 필요한 분은 아래 발표 자료를 참고하세요.
+[PPT(24.09)](https://drive.google.com/file/d/1Oy4faY7PMiEI09mdIJWxmKPeEJ2CZ5aD/view?usp=sharing)
 
 ## CGDPO와 PPO의 성능 비교
 
