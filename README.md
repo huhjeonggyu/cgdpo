@@ -1,4 +1,4 @@
-## CGDPO 알고리즘 소개
+![image](https://github.com/user-attachments/assets/17744d8b-9e76-484f-a96e-7b95b4d4535d)## CGDPO 알고리즘 소개
 
 CGDPO(Computational-Graph-based Direct Policy Optimization)는 dynamic consumption & portfolio choice problem을 풀기 위한 강화학습 알고리즘입니다.
 
@@ -41,10 +41,10 @@ REINFORCE 알고리즘과 1,2번은 동일하지만 3,4,5번에서 차별화됩�
 ### 불완전 시장
 | | | 1min | 5min | 10min | 30min | 60min |
 |--------|------|-------|-------|--------|--------|--------|
-| Myopic Demand | PPO | 4.37E+02 | 1.10E+02 | 6.13E+01 | 5.78E+01 | 2.04E+02 |
-| | CGDPO | 1.27E+01 | 3.45E-02 | 2.38E-03 | 7.81E-03 | 3.70E-03 |
-| Hedging Demand | PPO | 8.41E+02 | 1.20E+03 | 4.92E+02 | 5.17E+02 | 3.99E+03 |
-| | CGDPO | 4.35E-01 | 1.72E-01 | 2.50E-01 | 2.17E-01 | 1.83E-01 |
+| Myopic Demand | PPO | 4.94E+01 | 1.64E+02 | 3.61E+01 | 6.15E+01 | 1.32E+02
+| | CGDPO | 5.67E-02 | 2.10E-02 | 8.50E-03 | 1.21E-02
+| Hedging Demand | PPO | 1.34E+01 | 1.58E+01 | 6.20E+00 | 6.25E+00 | 1.23E+01
+| | CGDPO | 8.99E-01 | 8.42E-01 | 2.79E-01 | 2.54E-01 | 2.37E-01
 
 위험 자산은 1개만 고려되었으며, 완전 시장은 Merton이 고려한 로그 수익률이 기하브라운운동을 따르는 시장을, 불완전 시장은 Kim & Omberg가 제시한 리스크 프리미엄이 OU process로 움직이는 시장을 의미합니다. 또한 완전 시장에서는 소비가 고려되나, 불완전 시장에서는 소비가 고려되지 않습니다. 이는 Merton과 Kim & Omberg의 원래의 설정을 따르는 것입니다. 완전 시장에서는 최적 소비량, 최적 포트폴리오 비율을 예측하는 신경망 2가지가 있으며, 불완전 시장에서는 최적 근시안적 수요(myopic demand), 최적 헷징 수요(hedging demand)를 예측하는 신경망 2가지가 있습니다. 근시안적 수요와 헷징 수요를 합치면 포트폴리오 비율이 됩니다. 잘 알려져 있는 것처럼, 불완전 시장에서의 dynamic choice problem은 마코위츠의 static choice problem에서 도출된 결과와 동일한 근시안적 수요에 헷징 수요를 더하는 것으로 설명됩니다. 자세한 설명이 필요한 분들은 complete 폴더와 incomplete 폴더를 들어가보시길 바랍니다.
 
