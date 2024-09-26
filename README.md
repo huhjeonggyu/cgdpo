@@ -1,4 +1,4 @@
-## CGDPO 알고리즘 소개
+![image](https://github.com/user-attachments/assets/5b63c411-6c71-4038-8df3-7e4b7af57431)## CGDPO 알고리즘 소개
 
 CGDPO(Computational-Graph-based Direct Policy Optimization)는 dynamic consumption & portfolio choice problem을 풀기 위한 강화학습 알고리즘입니다.
 
@@ -42,7 +42,7 @@ REINFORCE 알고리즘과 1,2번은 동일하지만 3,4,5번에서 차별화됩�
 | | | 1min | 5min | 10min | 30min | 60min |
 |--------|------|-------|-------|--------|--------|--------|
 | Myopic Demand | PPO | 4.94E+01 | 1.64E+02 | 3.61E+01 | 6.15E+01 | 1.32E+02
-| | CGDPO | 5.67E-02 | 2.10E-02 | 8.50E-03 | 1.21E-02
+| | CGDPO | 2.19E-01 | 5.67E-02 | 2.10E-02 | 8.50E-03 | 1.21E-02
 | Hedging Demand | PPO | 1.34E+01 | 1.58E+01 | 6.20E+00 | 6.25E+00 | 1.23E+01
 | | CGDPO | 8.99E-01 | 8.42E-01 | 2.79E-01 | 2.54E-01 | 2.37E-01
 
