@@ -3,11 +3,11 @@
 CGDPO(Computational-Graph-based Direct Policy Optimization)는 금융 분야의 dynamic consumption & portfolio choice problem을 풀기 위해 개발된 강화학습 알고리즘입니다. 물론 금융 분야 이외의 stochastic optimal control problem에도 적용될 수 있습니다.
 
 본 알고리즘은 다음 연구자들에 의해 개발되었습니다:
-* 성균관대 수학과 허정규
-* 아주대 금융공학과 구형건
-* 성균관대 핀테크융합전공 임병화
-* 아주대 금융공학과 김현균
-* 전남대 데이터사이언스대학원 정승원
+* 성균관대 수학과 허정규 교수
+* 아주대 금융공학과 구형건 명예교수
+* 성균관대 핀테크융합전공 임병화 교수
+* 아주대 금융공학과 김현균 교수
+* 전남대 데이터사이언스대학원 정승원 박사
 
 궁금한 점이 있으시면 저자 중 허정규 교수에게 메일(jghuh@skku.edu)로 문의 부탁드립니다. 이 프로젝트는 현재 진행중으로 연구에 이용하신다면 다음을 인용 부탁드립니다.
 
