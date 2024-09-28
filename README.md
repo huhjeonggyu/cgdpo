@@ -1,6 +1,6 @@
 ## CGDPO 알고리즘 소개
 
-CGDPO(Computational-Graph-based Direct Policy Optimization)는 dynamic consumption & portfolio choice problem을 풀기 위한 강화학습 알고리즘입니다.
+CGDPO(Computational-Graph-based Direct Policy Optimization)는 금융 분야의 dynamic consumption & portfolio choice problem을 풀기 위해 개발된 강화학습 알고리즘입니다. 물론 금융 분야 이외의 stochastic optimal control problem에도 적용될 수 있습니다.
 
 본 알고리즘은 다음 연구자들에 의해 개발되었습니다:
 * 성균관대 수학과 허정규
