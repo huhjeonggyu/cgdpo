@@ -58,13 +58,19 @@ PPO 알고리즘은 완전 시장에서도 수렴하지 않고 해답 주변을 
 * 짧은 시간 안에 불완전시장을 포함한 임의 모델에서의 정책 신경망 학습을 담보
 * 불완전 시장에서 '근시안적 수요'와 '헤징 수요'를 분리하여 구해낸 최초의 연구
 
-## 비교 연구
+## 비교 연구 1
 
 * Dai, M., Dong, Y., Jia, Y., & Zhou, X. Y. (2023). Learning Merton's Strategies in an Incomplete Market: Recursive Entropy Regularization and Biased Gaussian Exploration. arXiv preprint arXiv:2312.11797.
 
 위의 연구는 모델 프리 강화학습을 엔트로피 정규화 방법과 엮어 dynamic choice problem을 풀어내려고 하고 있습니다. 이 연구는 static model에 적용된 아래의 두 연구를 dynamic model로 알맞게 확장하는 연구로 봐야 합니다.
 1. Wang, H., & Zhou, X. Y. (2020). Continuous‐time mean–variance portfolio selection: A reinforcement learning framework. Mathematical Finance, 30(4), 1273-1308
 2. Dai, M., Dong, Y., & Jia, Y. (2023). Learning equilibrium mean‐variance strategy. Mathematical Finance, 33(4), 1166-1212.
+
+혹은 아래의 연속 확률 모형을 위해 개발된 알고리즘을 dynamic choice problem에 응용하는 연구로 볼 수도 있습니다.
+1. Jia, Y., & Zhou, X. Y. (2022). Policy evaluation and temporal-difference learning in continuous time and space: A martingale approach. Journal of Machine Learning Research, 23(154), 1-55.
+2. Jia, Y., & Zhou, X. Y. (2022). Policy gradient and actor-critic learning in continuous time and space: Theory and algorithms. Journal of Machine Learning Research, 23(275), 1-50.
+
+## 비교 연구 2
 
 * Geng, S., Nassif, H., Kuang, Z., Reppen, A., & Sircar, R. (2023, July). Factor learning portfolio optimization informed by continuous-time finance models. In ICML Workshop on New Frontiers in Learning, Control, and Dynamical Systems.
 
